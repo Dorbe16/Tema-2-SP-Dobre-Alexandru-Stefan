@@ -1,6 +1,7 @@
+%Semnal triunghiular, deoarece am numarul de ordine 12, care este par
 P=40;  % Perioada semnalului
 w=2*pi/P; 
-D=12;  % Durata semnalului dreptunghiular
+D=12;  % Durata semnalului dreptunghiular (am ales D in functie de numarul meu de ordine)
 rezolutie=1/10; 
 % Rezolutie aleasa ca sa avem imagine mai exacta, dar si sa nu avem timp de rulare foarte mare
 t = -2*P:rezolutie:2*P;
